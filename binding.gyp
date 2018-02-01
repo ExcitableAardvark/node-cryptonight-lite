@@ -10,6 +10,13 @@
         "-Ofast",
         "-fexceptions"
       ],
+      "xcode_settings": {
+        "OTHER_CFLAGS": [ 
+          "-maes",
+          "-Ofast",
+          "-fexceptions"
+        ]
+      },
       "sources": [
         "lib/cryptonight-lite.cc",
         "lib/vendor/aesb.c",
